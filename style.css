@@ -1,0 +1,17 @@
+form{
+    width: 80vw;
+    
+
+}
+input{
+    width: 50vw;
+    margin-bottom: 25px;
+}
+.info{
+    width: 40vw;
+    height: 20px;
+    background-color: rgba(133, 116, 116, 0.3);
+    text-align: center;
+    cursor: pointer;
+}
+

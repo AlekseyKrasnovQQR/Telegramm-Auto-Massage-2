@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Настройка переменных</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+    <h1>Настройка переменных</h1>
+    <form id="myForm" method="POST">
+        <label for="TOKEN">TOKEN:</label> 
+        <div onclick="token()" class="info">Как получить TOKEN</div>
+        <br>
+        
+        <input type="text" id="TOKEN" name="TOKEN" placeholder="Ваш TOKEN" required><br>
+        <label for="CHAT_ID">CHAT_ID:</label>
+        <div onclick="chat_id()" class="info">Как получить CHAT_ID</div><br>
+        <input type="text" id="CHAT_ID" name="CHAT_ID" placeholder="Ваш CHAT_ID" required><br>
+
+        <label for="URL_API">URL_API:</label>
+        <div onclick="url()" class="info">Как получить URL_API</div><br>
+        <input type="text" id="URL_API" name="URL_API" placeholder="Ваш URL_API" required><br>
+
+        <label for="INTERVAL">INTERVAL (ms):</label>
+        <div onclick="interval()" class="info">Как получить INTERVAL</div><br>
+        <input type="number" id="INTERVAL" name="INTERVAL" placeholder="Интервал (миллисекунды)" required><br>
+
+        <label for="desktopPath">desktopPath:</label>
+        <div onclick="onePath()" class="info">Как получить desktopPath</div><br>
+        <input type="text" id="desktopPath" name="desktopPath" placeholder="Путь к desktopPath" required><br>
+
+        <label for="destinationFolderPath">destinationFolderPath:</label>
+        <div  onclick="twoPath()" class="info">Как получить destinationFolderPath</div><br>
+        <input type="text" id="destinationFolderPath" name="destinationFolderPath" placeholder="Путь к destinationFolderPath" required>
+
+        <input type="button" value="Сохранить и начать" onclick="submitForm()">
+
+
+        <div id="server" class="server">
+                
+        </div>
+    </form>
+    <script src="script.js"></script>
+    <script>
+    </script>
+</body>
+</html>
